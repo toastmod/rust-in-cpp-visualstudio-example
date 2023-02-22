@@ -12,8 +12,10 @@ Set the following settings in your project properties...
 
 - C/C++ > General > Additional Include Directories:
    * `$(ProjectDir)\YOUR_RUST_CRATE_NAME_HERE;%(AdditionalIncludeDirectories)`
+   
 - Linker > General > Additional Library Directories: 
    * `$(ProjectDir)\YOUR_RUST_CRATE_NAME_HERE\target\debug;%(AdditionalLibraryDirectories)`
+   
 - Linker > Input > Additional Dependencies: 
    * `YOUR_RUST_CRATE_NAME_HERE.lib;ws2_32.lib;userenv.lib;bcrypt.lib;%(AdditionalDependencies)` 
    * And I couldn't tell ya why the heck `ws2_32.lib;userenv.lib;bcrypt.lib;` are needed to compile :^)
