@@ -1,5 +1,5 @@
 # Calling Rust from C++ in Visual Studio
-Here is an example demonstrating a Visual Studio solution that introduces a Rust static library.
+Here is an example demonstrating a Visual Studio 2017 solution that introduces a Rust static library.
 
 # DIY!
 If you want to make this youself, you can start by following ["A little Rust with your C"](https://docs.rust-embedded.org/book/interoperability/rust-with-c.html).\
